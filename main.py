@@ -22,6 +22,8 @@ def clean(text):
 
 
 while True:
+    time.sleep(5)
+    print(50*"\n")
     r = requests.get\
         ('https://www.infotbm.com/nextdeparture/B/stoparea/TBT5529/backward')
 
@@ -31,5 +33,4 @@ while True:
 
     for tram in samples:
         print(clean(tram.text))
-    time.sleep(5)
-    print(50*"\n")
+    print(15*"\n")
