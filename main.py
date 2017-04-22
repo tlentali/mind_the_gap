@@ -22,7 +22,7 @@ def clean(text):
 
 
 while True:
-    time.sleep(5)
+    time.sleep(15)
     print(50*"\n")
     r = requests.get\
         ('https://www.infotbm.com/nextdeparture/B/stoparea/TBT5529/backward')
