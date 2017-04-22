@@ -33,4 +33,4 @@ while True:
 
     for tram in samples:
         print(clean(tram.text))
-    print(2*"\n")
+    print(1*"\n")
