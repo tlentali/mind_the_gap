@@ -1,17 +1,17 @@
 # -*- coding: utf-8 -*-
 
 """
-    blend of main and function, temporary.
+    main
 """
 
 import time
 import utils
-
+import config
 
 while True:
-    time.sleep(15)
+    time.sleep(config.REFRESH)
     print(50*"\n")
-    url = 'https://www.infotbm.com/nextdeparture/B/stoparea/TBT5529/backward'
+    url = config.URL
     samples = utils.parserHtml(utils.getInfo(url))
     for tram in samples:
         print(utils.clean(tram.text))
