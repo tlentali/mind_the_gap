@@ -1,7 +1,7 @@
 # Go away
 
 Displays the next tram departure,  
-because I don't like watch.
+because I don't like watches.
 
 ![alt text](https://raw.githubusercontent.com/tlentali/go_away/master/picture/result.png)
 
