@@ -1,5 +1,19 @@
-# go_away
+# Go away
 
-Never live that again :
+Displays the next tram departure,  
+because I don't like watch.
 
-![Project visual](http://vignette1.wikia.nocookie.net/disney/images/c/c9/Tumblr_mvvwp4QVau1qhcrb0o1_1280.jpg/revision/latest?cb=20131108181614)
+### To launch
+
+`./launch.sh`
+
+### Requirement
+
+- requests
+- bs4
+- re
+
+### TO DO
+
+- context manager
+- own independant interface
