@@ -3,7 +3,7 @@
 Displays the next tram departure,  
 because I don't like watch.
 
-![alt text](https://github.com/tlentali/go_away/picture/result.png)
+![alt text](https://raw.githubusercontent.com/tlentali/go_away/master/picture/result.png)
 
 
 ### To launch
