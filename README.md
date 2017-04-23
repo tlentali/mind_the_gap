@@ -3,6 +3,9 @@
 Displays the next tram departure,  
 because I don't like watch.
 
+![alt text](https://github.com/tlentali/go_away/picture/result.png)
+
+
 ### To launch
 
 `./launch.sh`
