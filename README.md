@@ -16,6 +16,10 @@ because I don't like watches.
 - bs4
 - re
 
+### Desactivate automatic turn off screen in Gnu/linux
+
+$ xset s off -dpms
+
 ### TO DO
 
 - context manager
