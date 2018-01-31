@@ -25,9 +25,9 @@ class TbmParser:
         self.info.clear()
         soup = BeautifulSoup(self.content, 'html.parser')
         all = soup.find_all('span', attrs={"class": u"inline-left"})
+        regex = re.compile(r'^\s+(\d+).*?direction\s*(.*?)$', re.DOTALL)
 
         for info in all:
-            regex = re.compile(r'^\s+(\d+).*?direction\s*(.*?)$', re.DOTALL)
             line = regex.findall(info.text)[0]
             self.info.append(TbmInfo(duration=line[0], direction=line[1].strip()))
 
