@@ -3,22 +3,40 @@
 """
     main
 """
-
+import logging
 import time
-import utils
+
+import schedule
+
 import config
+from tbm import TbmParser
+
+L = logging.getLogger(__name__)
+L.setLevel(logging.DEBUG)
+L.addHandler(logging.StreamHandler())
 
 
-while True:
-    try:
-        time.sleep(config.REFRESH)
-        print(50 * "\n")
-        url = config.URL
-        samples = utils.parserHtml(utils.getInfo(url))
-        for tram in samples:
-            print(utils.clean(tram.text))
-        print(1 * "\n")
-    except ConnectionError:
-        print(50 * "\n")
-        print("Tram doesn´t exist anymore!")
-        print(1 * "\n")
+def get_tramway_schedule():
+    L.info('Create TBM object')
+    start = time.time()
+
+    parser = TbmParser(config.URL)
+    parser.parse()
+
+    end = time.time()
+
+    L.info('Done in {:.2f} sec'.format(end - start))
+    print(parser.info)
+
+
+def main():
+    L.info('Lets go!')
+    schedule.every(config.REFRESH).seconds.do(get_tramway_schedule)
+
+    while True:
+        schedule.run_pending()
+        time.sleep(1)
+
+
+if __name__ == '__main__':
+    main()
