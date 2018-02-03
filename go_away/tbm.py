@@ -29,7 +29,7 @@ class TbmParser:
 
         for info in all:
             line = regex.findall(info.text)[0]
-            self.info.append(TbmInfo(duration=line[0], direction=line[1].strip()))
+            self.info.append(TbmInfo(duration=int(line[0]), direction=line[1].strip()))
 
     def parse(self):
         self.load_page()

@@ -1,4 +1,4 @@
 #!/bin/bash
 
-cd go_away
-python main.py
+xset s off -dpms
+python3 go_away/main.py --fullscreen
