@@ -12,14 +12,14 @@ Because :
 ## Install packages
 
 ```
-pip install -r requirement.txt
+$ pip install -r requirement.txt
 ```
 
 ## To launch
 
 In a terminal :  
 ```
-./launch.sh
+$ ./launch.sh
 ```
 Result :  
   
