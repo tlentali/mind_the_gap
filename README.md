@@ -6,7 +6,7 @@ Displays the next tram departure
 
 ## Why ?
 Because :  
-> "Ailleurs" est un mot plus beau que "Demain"  
+> "Ailleurs" est un mot plus beau que "Demain".  
 > **P. Morand**
 
 ## Install packages
@@ -22,6 +22,7 @@ In a terminal :
 ./launch.sh
 ```
 Result :  
+  
 ![alt text](./picture/result.png)
 
 ## Desactivate automatic turn off screen in Gnu/linux
