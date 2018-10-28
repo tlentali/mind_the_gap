@@ -7,7 +7,7 @@ Displays the next tram departure
 ## Why ?
 Because :  
 > "Ailleurs" est un mot plus beau que "Demain".  
-> **P. Morand**
+> **S. Lapaque**
 
 ## Install packages
 
