@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="#"><img src="./picture/mind.png"  width="250"/></a>
+  <a href="#"><img src="./picture/mind-the-gap.jpg"  width="450"/></a>
 </p>
 
 Displays the next tram departure
