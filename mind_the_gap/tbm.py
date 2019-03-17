@@ -16,11 +16,9 @@ def get_info():
 def extract_info(res):
     soup = BeautifulSoup(res, 'lxml')
 
-
     box = soup.find('div', {'class': 'l-time'})
     for element in box(text=lambda text: isinstance(text, Comment)):
         element.extract()
-
 
     all_hackathons = box.find_all('span', {'class': 'h4 text-normal'})
 
