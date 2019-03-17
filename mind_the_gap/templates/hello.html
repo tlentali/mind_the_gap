@@ -1,0 +1,12 @@
+<!doctype html>
+  <head>
+    <title>Mind the gap</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+  </head>
+
+{% if name %}
+  <h1>{{name[0]}}</h1>
+  <h1>{{name[1]}}</h1>
+{% else %}
+  <h1>Hello, World!</h1>
+{% endif %}

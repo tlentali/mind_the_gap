@@ -1,4 +1,4 @@
 #!/bin/bash
 
-xset s off -dpms
-python3 go_away/main.py --fullscreen
+cd mind_the_gap
+FLASK_APP=application.py flask run
