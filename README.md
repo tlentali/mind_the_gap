@@ -1,15 +1,26 @@
+<h1 align="center">Mind the gap</h1>
+
 <p align="center">
-  <a href="#"><img src="./picture/mind-the-gap.jpg"  width="450"/></a>
+  <a href="#"><img src="./picture/mindthegap.jpg"  width="450"/></a>
 </p>
 
-Displays the next tram departure
+<div align="center">
+  <strong>Displays the next tram departure</strong>
+</div>
+
+## Table of Contents
+- [Philosophy](#why)
+- [Installation](#installation)
+- [Launch](#to launch)
+- [Result](#result)
 
 ## Why ?
+
 Because :  
 > "Ailleurs" est un mot plus beau que "Demain".  
 > **S. Lapaque**
 
-## Install packages
+## Installation
 
 ```
 $ pip install -r requirement.txt
@@ -31,7 +42,6 @@ $ ./launch.sh
 Then open a browser and go to :  
 [http://127.0.0.1:5000/](http://127.0.0.1:5000/)  
 
-Result :  
+## Result
  
 ![alt text](./picture/result.png)
-
