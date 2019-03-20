@@ -8,8 +8,8 @@
   <strong>Displays the next tram departure</strong>
 </div>
 
-## Table of Contents
-- [Philosophy](#why)
+### Table of Contents
+- [Why](#why)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Config](#config)
