@@ -1,7 +1,7 @@
 <h1 align="center">Mind the gap</h1>
 
 <p align="center">
-  <a href="#"><img src="./picture/mindthegap.jpg"  width="450"/></a>
+  <a href="#"><img src="./picture/mindthegap.jpeg"  width="450"/></a>
 </p>
 
 <div align="center">
@@ -43,5 +43,6 @@ Then open a browser and go to :
 [http://127.0.0.1:5000/](http://127.0.0.1:5000/)  
 
 ## Result
- 
-![alt text](./picture/result.png)
+ <p align="center">
+  <a href="#"><img src="./picture/result.png"  width="450"/></a>
+</p>
