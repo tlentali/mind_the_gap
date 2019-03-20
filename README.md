@@ -18,7 +18,7 @@
 ## Why ?
 
 Because :  
-> "Ailleurs" est un mot plus beau que "Demain".  
+> ```Ailleurs``` est un mot plus beau que ```demain```.  
 > **S. Lapaque**
 
 ## Installation
